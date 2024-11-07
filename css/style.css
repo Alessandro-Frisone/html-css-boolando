@@ -131,6 +131,66 @@ header{
 .col-top:hover .img-fluid{
     display: none;
 }
+.img-hover2{
+    max-width: 100%;
+    display: none;
+}
+.col-top:hover .img-hover2{
+    display: block;
+}
+.col-top:hover .img-fluid{
+    display: none;
+}
+.img-hover3{
+    max-width: 100%;
+    display: none;
+}
+.col-top:hover .img-hover3{
+    display: block;
+}
+.col-top:hover .img-fluid{
+    display: none;
+}
+.img-hover4{
+    max-width: 100%;
+    display: none;
+}
+.col-top:hover .img-hover4{
+    display: block;
+}
+.col-top:hover .img-fluid{
+    display: none;
+}
+.img-hover5{
+    max-width: 100%;
+    display: none;
+}
+.col-top:hover .img-hover5{
+    display: block;
+}
+.col-top:hover .img-fluid{
+    display: none;
+}
+.img-hover6{
+    max-width: 100%;
+    display: none;
+}
+.col-top:hover .img-hover6{
+    display: block;
+}
+.col-top:hover .img-fluid{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER */
