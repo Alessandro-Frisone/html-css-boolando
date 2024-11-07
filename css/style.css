@@ -1,0 +1,61 @@
+/*  RESET  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* GENERAL */
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.container1 .login{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+
+
+/* HEADER */
+.header-top {
+    padding: 15px 0;
+    background-color: #DE712B;
+    color: white;
+}
+.header-top>* {
+    padding: 6px;
+}
+.header-top>.container{
+    display: flex;
+    align-items: center;
+}
+.header-top .gender,
+.header-top .login {
+    width: 20%;
+    text-align: center;
+}
+.header-top .login {
+    text-align: right;
+}
+.logo img{
+    max-width: 20%;
+    align-items: center;
+}
+.container .gender{
+    align-items: center;
+}
+.logo{
+    text-align: center; 
+}
+header{
+    position: sticky;
+    top: 0;
+}
