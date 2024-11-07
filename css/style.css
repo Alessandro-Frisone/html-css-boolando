@@ -18,8 +18,11 @@
     display: flex;
     gap: 15px;
 }
-
-
+.container2{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -58,6 +61,7 @@
 header{
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 
@@ -71,7 +75,43 @@ header{
 }
 .col{
     width: calc(100%/3);
+    
 }
 .img-fluid{
     max-width: 100%;
+}
+.discount{
+    background-color: red;
+    color: white;
+    padding: 4px;
+}
+.sostenibilita{
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+    padding: 4px;
+}
+.contenitore{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    padding: 0px;
+}
+.heart{
+    background-color: white;
+    color: black;
+    font-size: 2em;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.col-top{
+    position: relative;
+}
+.col-bottom span:last-child{
+    text-decoration: line-through;
+}
+.col-bottom span:nth-child(3n){
+    color: red;
 }
