@@ -121,6 +121,16 @@ header{
 .col-bottom span:nth-child(3n){
     color: red;
 }
+.img-hover1{
+    max-width: 100%;
+    display: none;
+}
+.col-top:hover .img-hover1{
+    display: block;
+}
+.col-top:hover .img-fluid{
+    display: none;
+}
 
 
 /* FOOTER */
