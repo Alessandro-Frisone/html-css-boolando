@@ -72,6 +72,8 @@ header{
 
 
 
+
+
 /* MAIN */
 .row{
     display: flex;
@@ -181,14 +183,6 @@ header{
 .col-top:hover .img-fluid{
     display: none;
 }
-
-
-
-
-
-
-
-
 
 
 
