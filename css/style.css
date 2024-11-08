@@ -79,7 +79,7 @@ header{
 .row{
     display: flex;
     margin-top: 5%;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     gap: 30px;
 }
 .col{
